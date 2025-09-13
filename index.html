@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"rel="stylesheet">
+</head>
+<body>
+
+
+
+<div class="flex justify-center items-center flex-col mx-auto mt-70">
+  <h2 class="flex text-2xl">Guess Nationality by name</h2>
+  <div class="w-100 h-20 shadow-2xl flex gap-5 rounded-t-xl">
+            <input type="text" id="input" class="w-50 h-10 ml-5 mt-5 border rounded-lg" placeholder="Ism yozing">
+            <button onclick="getData()" class="bg-green-500 w-25 h-10 mt-5 rounded-lg">Submit</button>
+          </div>
+          <div id="flag" class="flex h-10 w-100 bg-white gap-4 rounded-b-xl"></div>
+</div>  
+
+
+  <script src="script.js"></script>
+</body>
+</html>
